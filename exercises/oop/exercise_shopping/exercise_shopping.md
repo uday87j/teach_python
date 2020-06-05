@@ -8,7 +8,7 @@ Take a learner through the process of creating a simulation of a few *Users* pur
 
 ### Code Structure
 
-`Person`, `Shop` and `World` are the three main classes. Rest of the classes exist to support the behaviour of these two concepts.
+`Person`, `Shop` and `World` are the three main classes. Rest of the classes exist to support the behaviour of these three concepts.
 
 `Person`'s attributes:
 
@@ -44,6 +44,7 @@ Take a learner through the process of creating a simulation of a few *Users* pur
   * This will be invoked by `World`
 * Add an API in `Shop` to enable purchasing of 1 or more items
 * In `World::run()`, invoke `Person` to do shopping for five times with a gap of some small time
+  * Also, randomly give each `Person` some money
 * Print `Person` available money before and after all the shopping is done
 * Print `Shop` contents before and after all the shopping is done
 * Print *shopping-profile* for each `Person`
