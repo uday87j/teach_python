@@ -21,7 +21,7 @@ def main():
         # Add your code here for Part 1
     
     if args.words:
-        print(args.words.split(','))
+        print(args.words)
         # Add your code here for Part 2
 
     if args.after:

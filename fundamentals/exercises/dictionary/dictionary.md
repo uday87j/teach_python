@@ -1,8 +1,8 @@
-# Implement a language dictionary
+# Build queries for a language dictionary
 
 ## Problem Statement
 
-Use the fundamental tools of Python to implement a dictionary of words and their meanings in any language
+Use the fundamental tools of Python to implement queries for a dictionary of words and their meanings in any language
 
 ### Part 0
 
@@ -40,3 +40,19 @@ Print `N` words after `word` in dictionary order
 Print `N` words before `word` in dictionary order
 
 Make sure these options work only if `--word` or `--words` is given
+
+### Part 4
+
+For all the words that are successfully searched, store them separately *somewhere* and call it as `cache`. Next time a word is queried, look for that word in this `cache`. If found, return the result right away. Otherwise, search the dictionary as usual.
+
+This technique is called *caching*. It greatly improves the *performance* of queries of *repeated* words. The reason for increase in performance should be apparent.
+
+Limit the number of words that are stored in cache to 100.
+
+Tip: Think where all can you store this cache that can be used each time this program is run. We have seen such a place in one of the sessions.
+
+### Part 5
+
+`--cache-size N`
+
+Set the number of words stored in cache to `N`
