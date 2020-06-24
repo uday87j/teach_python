@@ -11,7 +11,8 @@ The names are listed in alphabetical order.
 It also contains a bitmap of *1s and 0s* to indicate whether or not a person is connected with another person indicated by the bit position in the bitmap.
 The bitmap starts from position 0 at the left most bit and increases as we scan towards the right.
 For example,
-**SOMEONE 10001000** `# Indicates that SOMEONE is connected to 0th person and 4th person.`
+**SOMEONE 10001000**
+`# Indicates that SOMEONE is connected to 0th person and 4th person.`
 
 ### Part 1
 
@@ -69,6 +70,6 @@ Who is the most connected person in the network containing `person`
 
 Who is the least connected person in the network containing `person`
 
-`--network_index-of  person`
+`--network-index-of  person`
 
-Of all the network sizes, in descending order, the positional index of the network containing `person` 
+Of all the network sizes, in descending order, the positional index of the network containing `person`
