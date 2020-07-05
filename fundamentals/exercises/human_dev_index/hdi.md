@@ -49,3 +49,29 @@ Countries that have more increases in HDI per year compared to dips
 `--decreasing-overall`
 
 Countries that have less increases in HDI per year compared to dips
+
+### Part 4
+
+`--only-increasing`
+
+Countries whose HDI is continuously increasing in 5years
+
+`--only-decreasing`
+
+Countries whose HDI is continuously decreasing in 5years
+
+`--rank COUNTRY YYYY`
+
+In year YYYY, rank of the COUNTRY in decreasing order of HDI
+
+`--rank COUNTRY`
+
+In each year, output rank of the COUNTRY in decreasing order of HDI
+
+`--world-rank COUNTRY YYYY`
+
+In year YYYY, rank of the COUNTRY in decreasing order of HDI *with respect to WORLD's HDI*
+
+`--world-rank COUNTRY`
+
+In each year, output rank of the COUNTRY in decreasing order of HDI *with respect to WORLD's HDI*
